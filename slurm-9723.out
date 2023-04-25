@@ -128,3 +128,53 @@ Using downloaded and verified file: /home/bingxing2/home/scx6150/datasets/coco/a
 2023-04-25 19:06:57,455 [INFO] Building datasets...
 Using downloaded and verified file: /home/bingxing2/home/scx6150/datasets/VG/annotations/vg_caption.json
 2023-04-25 19:06:58,336 [INFO] Building datasets...
+2023-04-25 19:08:41,359 [INFO] freeze vision encoder
+train from scratch
+2023-04-25 19:08:58,979 [INFO] Start training
+2023-04-25 19:09:00,260 [INFO] dataset_ratios not specified, datasets will be concatenated (map-style datasets) or chained (webdataset.DataPipeline).
+2023-04-25 19:09:00,260 [INFO] Loaded 1388521 records for train split from the dataset.
+2023-04-25 19:09:00,260 [INFO] Loaded 5000 records for val split from the dataset.
+2023-04-25 19:09:00,260 [INFO] Loaded 5000 records for test split from the dataset.
+2023-04-25 19:09:00,276 [INFO] number of trainable parameters: 105755648
+2023-04-25 19:09:00,277 [INFO] Start training epoch 0, 1355 iters per inner epoch.
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+/home/bingxing2/home/scx6150/code/LAVIS/lavis/processors/randaugment.py:40: RuntimeWarning: overflow encountered in scalar negative
+  offset = -low * scale
+Train: data epoch: [0]  [   0/1355]  eta: 3:20:16  lr: 0.000001  loss: 4.3722  time: 8.8681  data: 0.0000  max mem: 23272
+2023-04-25 19:09:09,158 [INFO] Reducer buckets have been rebuilt in this iteration.
+Train: data epoch: [0]  [  50/1355]  eta: 0:51:07  lr: 0.000003  loss: 3.6867  time: 2.2131  data: 0.0000  max mem: 27948
+Train: data epoch: [0]  [ 100/1355]  eta: 0:47:49  lr: 0.000006  loss: 3.5220  time: 2.2189  data: 0.0000  max mem: 27948
+Train: data epoch: [0]  [ 150/1355]  eta: 0:45:27  lr: 0.000008  loss: 3.3267  time: 2.2249  data: 0.0000  max mem: 27948
+Train: data epoch: [0]  [ 200/1355]  eta: 0:43:22  lr: 0.000011  loss: 3.2582  time: 2.2229  data: 0.0000  max mem: 28580
+Train: data epoch: [0]  [ 250/1355]  eta: 0:41:20  lr: 0.000013  loss: 3.3797  time: 2.2161  data: 0.0000  max mem: 28580
+Train: data epoch: [0]  [ 300/1355]  eta: 0:39:24  lr: 0.000016  loss: 3.3177  time: 2.2116  data: 0.0000  max mem: 28580
+Train: data epoch: [0]  [ 350/1355]  eta: 0:37:28  lr: 0.000018  loss: 3.2934  time: 2.2121  data: 0.0000  max mem: 28580
