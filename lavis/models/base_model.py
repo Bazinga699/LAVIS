@@ -95,9 +95,17 @@ class BaseModel(nn.Module):
             self.load_checkpoint(url_or_filename=finetune_path)
         else:
             # load pre-trained weights
-            pretrain_path = cfg.get("pretrained", None)
-            assert "Found load_finetuned is False, but pretrain_path is None."
-            self.load_from_pretrained(url_or_filename=pretrain_path, **kwargs)
+            load_pretrained = cfg.get("load_pretrained", False)
+            if load_pretrained:
+                pretrain_path = cfg.get("pretrained", None)
+                assert "Found load_finetuned is False, but pretrain_path is None."
+                if pretrain_path is not None:
+                    print(f'load from {pretrain_path}')
+                    self.load_from_pretrained(url_or_filename=pretrain_path, **kwargs)
+                else:
+                    print('pretrain_path is None. train from scratch')
+            else:
+                print('train from scratch')
 
     def before_evaluation(self, **kwargs):
         pass

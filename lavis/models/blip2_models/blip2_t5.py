@@ -32,6 +32,7 @@ class Blip2T5(Blip2Base):
 
     PRETRAINED_MODEL_CONFIG_DICT = {
         "pretrain_flant5xl": "configs/models/blip2/blip2_pretrain_flant5xl.yaml",
+        "pretrain_flant5b": "configs/models/blip2/blip2_pretrain_flant5b.yaml",
         "pretrain_flant5xl_vitL": "configs/models/blip2/blip2_pretrain_flant5xl_vitL.yaml",
         "pretrain_flant5xxl": "configs/models/blip2/blip2_pretrain_flant5xxl.yaml",
         "caption_coco_flant5xl": "configs/models/blip2/blip2_caption_flant5xl.yaml",

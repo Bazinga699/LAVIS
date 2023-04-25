@@ -9,7 +9,7 @@ import os
 from lavis.common.registry import registry
 
 from lavis.datasets.builders.base_dataset_builder import BaseDatasetBuilder
-from lavis.datasets.datasets.image_text_pair_datasets import ImageTextPairDataset
+from lavis.datasets.datasets.image_text_pair_datasets import ImageTextPairDataset, ImageTextPairDataset_flan
 from lavis.datasets.datasets.laion_dataset import LaionDataset
 
 
@@ -44,6 +44,11 @@ class VGCaptionBuilder(BaseDatasetBuilder):
 
     DATASET_CONFIG_DICT = {"default": "configs/datasets/vg/defaults_caption.yaml"}
 
+@registry.register_builder("vg_caption_flan")
+class VGCaptionBuilder(BaseDatasetBuilder):
+    train_dataset_cls = ImageTextPairDataset_flan
+
+    DATASET_CONFIG_DICT = {"default": "configs/datasets/vg/defaults_caption.yaml"}
 
 @registry.register_builder("laion2B_multi")
 class Laion2BMultiBuilder(BaseDatasetBuilder):
