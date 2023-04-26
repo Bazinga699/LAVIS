@@ -156,3 +156,5 @@ debug*/
 cache/
 
 nohubout/
+run_scripts/
+*.out

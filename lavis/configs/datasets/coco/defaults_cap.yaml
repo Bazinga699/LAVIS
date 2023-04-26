@@ -25,4 +25,4 @@ datasets:
           md5: 3ff34b0ef2db02d01c37399f6a2a6cd1
           storage: /home/bingxing2/home/scx6150/datasets/coco/annotations/coco_karpathy_test.json
       images:
-        storage: /home/bingxing2/home/scx6150/datasets/coco/images/
+          storage: /home/bingxing2/home/scx6150/datasets/coco/images/

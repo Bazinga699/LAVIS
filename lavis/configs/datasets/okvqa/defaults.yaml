@@ -18,7 +18,7 @@ datasets:
               # - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/okvqa/OpenEnded_mscoco_train2014_questions.json
               # - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/okvqa/mscoco_train2014_annotations.json
           storage:
-              - okvqa/annotations/okvqa_train.json
+              - /home/bingxing2/home/scx6150/datasets/okvqa/annotations/okvqa_train.json
               # - okvqa/annotations/OpenEnded_mscoco_train2014_questions.json
               # - okvqa/annotations/mscoco_train2014_annotations.json
         test:
@@ -29,9 +29,9 @@ datasets:
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/okvqa/OpenEnded_mscoco_val2014_questions.json
               - https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/okvqa/mscoco_val2014_annotations.json
           storage:
-              - okvqa/annotations/vqa_val_eval.json
-              - okvqa/annotations/answer_list.json
-              - okvqa/annotations/OpenEnded_mscoco_val2014_questions.json
-              - okvqa/annotations/mscoco_val2014_annotations.json
+              - /home/bingxing2/home/scx6150/datasets/okvqa/annotations/vqa_val_eval.json
+              - /home/bingxing2/home/scx6150/datasets/okvqa/annotations/answer_list.json
+              - /home/bingxing2/home/scx6150/datasets/okvqa/annotations/OpenEnded_mscoco_val2014_questions.json
+              - /home/bingxing2/home/scx6150/datasets/okvqa/annotations/mscoco_val2014_annotations.json
       images:
-          storage: coco/images/
+          storage: /home/bingxing2/home/scx6150/datasets/coco/images/

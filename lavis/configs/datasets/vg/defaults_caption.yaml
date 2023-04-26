@@ -15,4 +15,4 @@ datasets:
           url: https://storage.googleapis.com/sfr-vision-language-research/LAVIS/datasets/visual_genome/vg_caption.json
           storage: /home/bingxing2/home/scx6150/datasets/VG/annotations/vg_caption.json
       images:
-        storage: /home/bingxing2/home/scx6150/datasets/VG/images/
+          storage: /home/bingxing2/home/scx6150/datasets/VG/images/
